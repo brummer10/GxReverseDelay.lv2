@@ -250,7 +250,7 @@ static LV2UI_Handle instantiate(const struct LV2UI_Descriptor * descriptor,
 
 	ui->controls[0] = { 1.0, 1.0, 0.0, 1.0, 1.0, 60, 30, 61, 61, false,"POWER", BSWITCH, BYPASS};
 	ui->controls[1] = { 500, 500, 200, 2000, 10, 150, 30, 61, 61, false,"TIME(ms)", KNOB, TIME};
-	ui->controls[2] = { 0, 0, 0, 1, 0.01, 250, 30, 61, 61, false,"FFEEDBACK", KNOB, FFEEDBACK};
+	ui->controls[2] = { 0, 0, 0, 1, 0.01, 250, 30, 61, 61, false,"FEEDBACK", KNOB, FFEEDBACK};
 	ui->controls[3] = { 50, 50, 0, 100, 1, 350, 30, 61, 61, false,"WINDOW", KNOB, WINDOW};
 	ui->controls[4] = { 0.5, 0.5, 0, 1, 0.01, 450, 30, 61, 61, false,"DRY/WET", KNOB, DRYWET};
 	ui->controls[5] = { 0.0, 0.0, 0.0, 1.0, 0.01, 550, 30, 61, 61, false,"BUFFER", INDICATOR, BUF_INDICATON};
