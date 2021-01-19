@@ -9,7 +9,7 @@ Digital reverse delay lv2 plugin
 |   Command       |     |   Action                      |
 |-----------------|:---:|-------------------------------|
 |TAB              |==   |make next controller active    |
-|SHIFT+TAB        |==   |make previus controller active |
+|SHIFT+TAB        |==   |make previous controller active|
 |UP or RIGHT      |==   |increase controller value      |
 |DOWN or LEFT     |==   |decrease controller value      |
 |HOME (pos1)      |==   |set min controller value       |
@@ -21,7 +21,7 @@ Digital reverse delay lv2 plugin
 |   Command       |     |   Action                      |
 |-----------------|:---:|-------------------------------|
 |+                |==   |make next controller active    |
-|-                |==   |make previus controller active |
+|-                |==   |make previous controller active|
 |UP or RIGHT      |==   |increase controller value      |
 |DOWN or LEFT     |==   |decrease controller value      |
 |HOME (pos1)      |==   |set min controller value       |
@@ -31,7 +31,7 @@ Digital reverse delay lv2 plugin
 
 ###### BUILD DEPENDENCY’S 
 
-the following packages are needed to build GxReverseDelay:
+The following packages are needed to build GxReverseDelay:
 
 - libc6-dev
 - libcairo2-dev
@@ -39,7 +39,7 @@ the following packages are needed to build GxReverseDelay:
 - x11proto-dev
 - lv2-dev
 
-note that those packages could have different, but similar names 
+Note that those packages could have different, but similar names 
 on different distributions. There is no configure script, 
 make will simply fail when one of those packages isn't found.
 
@@ -52,4 +52,3 @@ will install into ~/.lv2
 $ sudo make install
 
 will install into /usr/lib/lv2
-
